@@ -1,0 +1,1324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-div {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.yy {
+    background-color: rgb(204, 204, 204);
+}
+
+th {
+    padding-left: 60px;
+    color: rgb(82, 80, 80);
+}
+
+.icon {
+    margin-top: 10px;
+    background-color:white;
+    width: 18%; /* Fixed width for the icon area */
+    height: 110px;
+    float: left;
+}
+
+.class-float {
+    float: right;
+    width: 82%; /* Rest of the space for the content */
+    background-color: white;
+    height: 110px;
+    padding-top:30px;
+}
+
+
+.catagories {
+    width: 200px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 100px;
+    text-align: center;
+    background-color: ;
+}
+#hov:hover {
+    color: rgb(50, 157, 202);
+
+}
+
+.fort-shirts {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap: 20px; /* Space between images */
+    margin-left: 260px; /* Account for the categories section */
+    margin-top: 20px;
+    padding: 10px;
+    width: 70%;
+}
+
+.im {
+    width: 200px;
+    text-align: center; /* Center text inside the block */
+/* For better visibility on dark background */
+}
+
+.im img {
+    width: 100%; /* Make the image fill its container */
+    height: 200px;
+    object-fit: cover;
+}
+#logo{
+    width: 150px;height: 150px;
+    margin-left: 20px;
+}
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+  }
+  
+  
+  
+  .container form{
+    padding:20px;
+    width:700px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+body {
+    background-color: rgb(210, 202, 192);
+    width:fit-content;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles for devices with max-width of 400px */
+
+  
+  
+  
+  .container form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+  }
+  
+  .container form .row .col{
+    flex:1 1 250px;
+  }
+  
+  .container form .row .col .title{
+    font-size: 20px;
+    color:#333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+  }
+  
+  .container form .row .col .inputBox{
+    margin:15px 0;
+  }
+  
+  .container form .row .col .inputBox span{
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .container form .row .col .inputBox input{
+    width: 100%;
+    border:1px solid #ccc;
+    padding:10px 15px;
+    font-size: 15px;
+    text-transform: none;
+  }
+  
+  .container form .row .col .inputBox input:focus{
+    border:1px solid #000;
+  }
+  
+  .container form .row .col .flex{
+    display: flex;
+    gap:15px;
+  }
+  
+  .container form .row .col .flex .inputBox{
+    margin-top: 5px;
+  }
+  
+  .container form .row .col .inputBox img{
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+  }
+  
+  .container form .submit-btn{
+    width: 100%;
+    padding:12px;
+    font-size: 17px;
+    background: white;
+    color:#fff;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  .container form .submit-btn:hover{
+    background: white;
+  }
+  img, video {
+      max-width: 100%;
+      height: auto;
+  }
+  
+.trailclass{
+text-align: center;
+margin-left: 40%;
+text-decoration:underline;
+}
+a{
+text-decoration: none;
+color: black;
+}
+a:hover{
+color:rgb(50, 157, 202);
+width: max-content;
+
+}
+.im:hover{
+background-color:cornsilk;
+
+}
+.details {
+    display: none; 
+    position: fixed; 
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 500px;
+    height: auto;
+    background-color:white;
+    padding: 20px;
+    z-index: 100;
+    border-radius: 10px;
+}
+.goBackBtn {
+    margin-bottom: 10px;
+}
+.discprice{
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+.cartDetails {
+    display: none;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    background-color:white;
+    padding: 20px;
+    z-index: 100;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-height: 500px;  /* Set maximum height */
+    overflow-y: auto; 
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 0, 0, 0.7);
+    z-index: 50;
+}
+.discprice {
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.cartItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.cartItem img {
+    width: 100px;
+    height: 100px;
+}
+.remove-btn {
+    cursor: pointer;
+    color: red;
+}
+/* Styling for total price */
+#totalPrice {
+    font-size: 18px;
+    text-align: right;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.final{
+    margin-top: 200px;
+    width: 100px;   height:100px;
+    background-color: yellow;
+
+}
+.lastclass{
+    margin-top: 100px;
+    margin-left: 250px;
+   height: 200px;
+}
+.lastneignbor{
+    float: right;
+    width: 300px;
+    margin-right: 250px;
+    margin-top: -200px;
+}
+.lasthome{
+    background-color:darkgrey;
+}
+.lasthome img{
+    width: 50px;
+    height: 50px;
+}
+
+.citystate {
+    display: flex; /* Flexbox to align child divs horizontally */
+    gap: 20px; /* Optional: space between items */
+}
+
+.citystate div {
+    display: flex;
+    flex-direction: column; /* Ensure label and input are vertical inside each div */
+    align-items: flex-start; /* Align labels and inputs to the start of the div */
+}
+.btnu{
+    background-color: yellow;border-radius:25px;
+    height: 25px;
+    border-style: hidden;
+
+}
+.btnu:hover{
+    background-color: white;
+}
+.cardnum{
+    float: left;
+}
+.imgcards{
+    float: right;
+    background-color:gainsboro;
+    margin-top: 70px;
+}
+.payment{
+    background-color:gainsboro;
+    height: 50px;
+}
+.clsfrcards{
+    float: right;
+    margin-top: 100px;
+    width: fit-content;
+}
+#paymentcardsection{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    background-color:white;
+    padding: 20px;
+    z-index: 100;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-height: 500px;  /* Set maximum height */
+    overflow-y: auto; 
+}
+/* Style the hover link */
+.hover-link {
+position: relative;
+text-decoration: underline;
+color: blue;
+cursor: pointer;
+}
+.hover-info {
+display: none;
+position: absolute;
+top: 30px;
+left: 0;
+width: 200px;
+padding: 10px;
+background-color: white;
+border: 1px solid #ccc;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+z-index: 1000;
+}
+.hover-info img {
+width: 100%;
+height: auto;
+margin-bottom: 10px;
+}
+.hover-link:hover + .hover-info {
+display: block;
+}
+#Addcardbtn:hover{
+color: azure;
+}
+
+
+@media only screen and (max-width: 376px) {
+    .first-div {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        background-color: white;
+    }
+    .acc{
+        margin-left:25%;
+        margin-top: -5%;
+    }
+    #useracc{
+        width: 200px;
+        margin-left: 265px;
+        margin-top: -50%;
+    }
+    .discription{
+        float: left;
+        flex-wrap: wrap;
+        margin-top: calc(100% - 1050px);
+        margin-left: 50px;
+    }
+.imagesofmens{
+        display: flex;
+        flex-wrap: wrap; 
+        gap: 20px; 
+        width:900px ;
+        margin-right: 50px;
+        float: right;
+    }
+.ima {
+        width: 200px;
+        text-align: center; 
+    }
+.ima img{
+        flex-wrap: wrap;
+        width: 100%; 
+        height: 200px;
+        object-fit: cover;
+    }
+    a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:rgb(50, 157, 202);
+    width: max-content;
+
+}
+.ima:hover{
+background-color:cornsilk;
+
+}
+.details {
+        display: none; 
+        position: fixed; 
+        top: 20%;
+        left: 0%;
+        transform: translate(-50%, -50%);
+        width: 500px;
+        height: auto;
+        background-color:white;
+        padding: 20px;
+        z-index: 100; 
+        border-radius: 10px; 
+    }
+    .overlay {
+        display: none; 
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(12, 0, 0, 0.7); 
+        z-index: 50; 
+    }
+    .goBackBtn {
+        margin-bottom: 10px;
+    }
+    .discprice{
+        float: right;
+        margin-right: 100px;
+        margin-top: 50px;
+    }
+    img {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .cartDetails {
+        display: none;
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        transform: translateX(-50%);
+        width: 50%;
+        background-color: azure;
+        padding: 10px;
+        z-index: 100;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        max-height: 500px; 
+        overflow-y: auto; 
+    }
+    .discprice {
+        float: right;
+        margin-right: 100px;
+        margin-top: 50px;
+    }
+    .cartItem {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .cartItem img {
+        width: 100px;
+        height: 100px;
+    }
+    .remove-btn {
+        cursor: pointer;
+        color: red;
+    }
+    #totalPrice {
+        font-size: 18px;
+        text-align: right;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    th {
+        padding-left: 5px; /* Reduce padding for smaller screens */
+        color: rgb(82, 80, 80);
+        font-size: 9px; /* Further reduced font size */
+    }
+
+    .icon {
+        width: 15%;
+        height: 50px;
+    }
+
+    .class-float {
+            float: right;
+            width: 50%; /* Rest of the space for the content */
+            height: 90px;
+            margin-right: 100px;
+            padding-top:10px;
+
+        }
+    
+    .catagories {
+        width: 100px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+
+    }
+    .catagories h1 {
+        padding-bottom: 5px;
+        font-size: 15px;
+        text-decoration:underline;
+
+    }
+    .catagories h3 {
+        font-size: 12px;
+    }
+
+    .fort-shirts {
+        display: flex;
+        flex-wrap: wrap; /* Allow items to wrap to the next line */
+        gap: 20px; /* Space between images */
+        margin-left: 20px; /* Account for the categories section */
+        margin-top: 20px;
+        padding: 20px;
+        width: wrap;
+    }
+
+    .im {
+        width: 100px;
+        text-align: center;
+    }
+
+    .im img {
+        width: 100px; /* Make the image fill its container */
+        height: 100px;
+        object-fit: cover;
+    }
+
+    #logo {
+        width: 80px;
+        height: 80px; /* Adjust logo size */
+    }
+
+    .container form {
+        width: 100%; /* Full width form */
+        padding: 10px;
+    }
+
+    .container form .row .col .title {
+        font-size: 13px; /* Smaller title size */
+    }
+
+    .container form .row .col .inputBox input {
+        padding: 6px 10px; /* Smaller padding */
+        font-size: 11px;
+    }
+
+    .container form .submit-btn {
+        padding: 7px;
+        font-size: 13px;
+    }
+
+    img, video {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .details {
+        width: 85%; 
+    }
+
+    .cartDetails {
+        width: 85%;
+    }
+
+    .final, .lastclass, .lastneignbor {
+        margin: 0 auto;
+        width: 85%;
+    }
+
+    .citystate {
+        flex-direction: column; /* Stack items vertically */
+        gap: 8px;
+    }
+
+    .btnu {
+        width: 100%;
+        height: 28px; /* Adjust button height */
+    }
+
+    .imgcards {
+        float: none;
+        margin: 20px auto;
+    }
+
+
+    .discprice {
+        float: none;
+        margin-right: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+    th {
+        padding-left: 20px;
+        color: rgb(82, 80, 80);
+    }
+
+    .cartItem {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cartItem img {
+        width: 75px;
+        height: 75px;
+    }
+    
+    .container form .row .col .inputBox img {
+        height: 22px;
+    }
+    h4{
+        margin-top: -17px;
+    }
+    .class-float h2 {
+    font-size: 15px;
+    
+
+    }
+    .class-float h3{
+        font-size: 10px;
+    }
+    .overlay{
+        display: none; /* Hide overlay initially */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 0, 0, 0.7); /* Semi-transparent background */
+    z-index: 50; 
+    
+    }
+    body{
+    width:375px;
+    }
+    .lastclass{
+       height: 100px;
+       width:50px;
+    }
+   
+    .lastclass img{
+        height: 30px;
+        width: 30px;
+    }
+    .lastneignbor{
+        float: right;
+        width: 50px;
+        margin-top: -100px;
+        margin-right: 50px;
+    }
+    .lastneignbor h3{
+        margin-right: 100px;
+        font-size: medium;
+    }
+    .lastneignbor p{
+        font-size: small;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .first-div {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        background-color: white;
+    }
+    .acc{
+        margin-left:20%;
+        margin-top: -5%;
+    }
+    #useracc{
+        width: 200px;
+        margin-left: 300px;
+        margin-top: -70%;
+    }
+
+    th {
+        padding-left: 5px; /* Reduce padding for smaller screens */
+        color: rgb(82, 80, 80);
+        font-size: 9px; /* Further reduced font size */
+    }
+
+    .icon {
+        width: 15%;
+        height: 50px;
+    }
+
+    .class-float {
+            float: right;
+            width: 50%; /* Rest of the space for the content */
+            height: 90px;
+            margin-right: 100px;
+            padding-top:10px;
+
+        }
+    
+    .catagories {
+        width: 100px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+
+    }
+    .catagories h1 {
+        padding-bottom: 5px;
+        font-size: 15px;
+        text-decoration:underline;
+
+    }
+    .catagories h3 {
+        font-size: 12px;
+    }
+
+    .fort-shirts {
+        display: flex;
+        flex-wrap: wrap; /* Allow items to wrap to the next line */
+        gap: 20px; /* Space between images */
+        margin-left: 20px; /* Account for the categories section */
+        margin-top: 20px;
+        padding: 20px;
+        width: wrap;
+    }
+
+    .im {
+        width: 100px;
+        text-align: center;
+    }
+
+    .im img {
+        width: 100px; /* Make the image fill its container */
+        height: 100px;
+        object-fit: cover;
+    }
+
+    #logo {
+        width: 80px;
+        height: 80px; /* Adjust logo size */
+    }
+
+    .container form {
+        width: 100%; 
+        padding: 10px;
+    }
+
+    .container form .row .col .title {
+        font-size: 13px; 
+    }
+
+    .container form .row .col .inputBox input {
+        padding: 6px 10px;
+        font-size: 11px;
+    }
+
+    .container form .submit-btn {
+        padding: 7px;
+        font-size: 13px;
+    }
+
+    img, video {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .details {
+        width: 85%; 
+    }
+
+    .cartDetails {
+        width: 85%; 
+    }
+
+    .final, .lastclass, .lastneignbor {
+        margin: 0 auto;
+        width: 85%;
+    }
+
+    .citystate {
+        flex-direction: column; 
+        gap: 8px;
+    }
+
+    .btnu {
+        width: 100%;
+        height: 28px; 
+    }
+
+    .imgcards {
+        float: none;
+        margin: 20px auto;
+    }
+
+    .discprice {
+        float: none;
+        margin-right: 0;
+        margin-top: 20px;
+        text-align: center; 
+    }
+    th {
+        padding-left: 20px;
+        color: rgb(82, 80, 80);
+    }
+
+    .cartItem {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cartItem img {
+        width: 75px;
+        height: 75px; /* Smaller cart item images */
+    }
+    
+    .container form .row .col .inputBox img {
+        height: 22px;
+    }
+    h4{
+        margin-top: -17px;
+    }
+    .class-float h2 {
+    font-size: 15px;
+    
+
+    }
+    .class-float h3{
+        font-size: 10px;
+    }
+    .overlay{
+        display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 0, 0, 0.7); 
+    z-index: 50; 
+    
+    }
+    body{
+    width:375px;
+    }
+    .lastclass{
+       height: 100px;
+    }
+    .lastclass img{
+        height: 30px;
+        width: 30px;
+    }
+    .lastneignbor{
+        float: right;
+        width: 100px;
+        margin-right: 90px;
+        padding: 0;
+        margin-top: -100px;
+    }
+    .lastneignbor h3{
+        font-size: medium;
+    }
+    .lastneignbor p{
+        font-size: small;
+    }
+}
+@media only screen and (max-width: 391px) {
+    .first-div {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        background-color: white;
+    }
+    .acc{
+        margin-left:20%;
+        margin-top: -5%;
+    }
+    #useracc{
+        width: 200px;
+        margin-left: 280px;
+        margin-top: -70%;
+    }
+
+    th {
+        padding-left: 5px; /* Reduce padding for smaller screens */
+        color: rgb(82, 80, 80);
+        font-size: 9px; /* Further reduced font size */
+    }
+
+    .icon {
+        width: 15%;
+        height: 50px;
+    }
+
+    .class-float {
+            float: right;
+            width: 50%; /* Rest of the space for the content */
+            height: 90px;
+            margin-right: 100px;
+            padding-top:10px;
+
+        }
+    
+    .catagories {
+        width: 100px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+
+    }
+    .catagories h1 {
+        padding-bottom: 5px;
+        font-size: 15px;
+        text-decoration:underline;
+
+    }
+    .catagories h3 {
+        font-size: 12px;
+    }
+
+    .fort-shirts {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px; 
+        margin-top: 20px;
+        padding: 10px;
+        width: wrap;
+    }
+
+    .im {
+        width: 100px;
+        text-align: center;
+    }
+
+    .im img {
+        width: 100px; /* Make the image fill its container */
+        height: 100px;
+        object-fit: cover;
+    }
+
+    #logo {
+        width: 80px;
+        height: 80px; /* Adjust logo size */
+    }
+
+    .container form {
+        width: 100%; /* Full width form */
+        padding: 10px;
+    }
+
+    .container form .row .col .title {
+        font-size: 13px; /* Smaller title size */
+    }
+
+    .container form .row .col .inputBox input {
+        padding: 6px 10px; /* Smaller padding */
+        font-size: 11px;
+    }
+
+    .container form .submit-btn {
+        padding: 7px;
+        font-size: 13px;
+    }
+
+    img, video {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .details {
+        width: 85%; /* Adjust modal width for mobile */
+    }
+
+    .cartDetails {
+        width: 85%; /* Adjust cart width for mobile */
+    }
+
+    .final, .lastclass, .lastneignbor {
+        margin: 0 auto;
+        width: 85%;
+    }
+
+    .citystate {
+        flex-direction: column; /* Stack items vertically */
+        gap: 8px;
+    }
+
+    .btnu {
+        width: 100%;
+        height: 28px; /* Adjust button height */
+    }
+
+    .imgcards {
+        float: none;
+        margin: 20px auto;
+    }
+
+    /* Additional small adjustments for better mobile layout */
+    .discprice {
+        float: none;
+        margin-right: 0;
+        margin-top: 20px;
+        text-align: center; /* Center align the discounted price */
+    }
+    th {
+        padding-left: 20px;
+        color: rgb(82, 80, 80);
+    }
+
+    .cartItem {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cartItem img {
+        width: 75px;
+        height: 75px; /* Smaller cart item images */
+    }
+    
+    .container form .row .col .inputBox img {
+        height: 22px;
+    }
+    h4{
+        margin-top: -17px;
+    }
+    .class-float h2 {
+    font-size: 15px;
+    
+
+    }
+    .class-float h3{
+        font-size: 10px;
+    }
+    .overlay{
+        display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 0, 0, 0.7); 
+    z-index: 50; 
+    
+    }
+    body{
+    width:375px;
+    }
+    .lastclass{
+       height: 100px;
+    }
+    .lastclass img{
+        height: 30px;
+        width: 30px;
+    }
+    .lastclass h3{
+      font-size: medium;
+    }
+    .lastneignbor{
+        float: right;
+        width: 100px;
+        margin-top: -100px;
+    }
+    .lastneignbor h3{
+        font-size: medium;
+    }
+    .lastneignbor p{
+        font-size: small;
+    }
+}
+@media only screen and (max-width: 430px) {
+    .first-div {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        background-color: white;
+    }
+    
+
+    th {
+        padding-left: 5px; /* Reduce padding for smaller screens */
+        color: rgb(82, 80, 80);
+        font-size: 9px; /* Further reduced font size */
+    }
+
+    .icon {
+        width: 15%;
+        height: 50px;
+    }
+    .acc{
+        margin-left:20%;
+        margin-top: -5%;
+    }
+    #useracc{
+        width: 200px;
+        margin-left: 310px;
+        margin-top: -80%;
+    }
+
+
+    .class-float {
+            float: right;
+            width: 50%; /* Rest of the space for the content */
+            height: 90px;
+            margin-right: 100px;
+            padding-top:10px;
+
+        }
+    
+    .catagories {
+        width: 100px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+
+    }
+    .catagories h1 {
+        padding-bottom: 5px;
+        font-size: 15px;
+        text-decoration:underline;
+
+    }
+    .catagories h3 {
+        font-size: 12px;
+    }
+
+    .fort-shirts {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px; 
+        margin-top: 20px;
+        padding: 10px;
+        width: wrap;
+        margin-left: 100px;
+    }
+
+    .im {
+        width: 100px;
+        text-align: center;
+    }
+
+    .im img {
+        width: 100px; /* Make the image fill its container */
+        height: 100px;
+        object-fit: cover;
+    }
+
+    #logo {
+        width: 80px;
+        height: 80px; /* Adjust logo size */
+    }
+
+    .container form {
+        width: 100%; /* Full width form */
+        padding: 10px;
+    }
+
+    .container form .row .col .title {
+        font-size: 13px; /* Smaller title size */
+    }
+
+    .container form .row .col .inputBox input {
+        padding: 6px 10px; /* Smaller padding */
+        font-size: 11px;
+    }
+
+    .container form .submit-btn {
+        padding: 7px;
+        font-size: 13px;
+    }
+
+    img, video {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .details {
+        width: 85%; /* Adjust modal width for mobile */
+    }
+
+    .cartDetails {
+        width: 85%; /* Adjust cart width for mobile */
+    }
+
+    .final, .lastclass, .lastneignbor {
+        margin: 0 auto;
+        width: 85%;
+    }
+
+    .citystate {
+        flex-direction: column; /* Stack items vertically */
+        gap: 8px;
+    }
+
+    .btnu {
+        width: 100%;
+        height: 28px; /* Adjust button height */
+    }
+
+    .imgcards {
+        float: none;
+        margin: 20px auto;
+    }
+
+    /* Additional small adjustments for better mobile layout */
+    .discprice {
+        float: none;
+        margin-right: 0;
+        margin-top: 20px;
+        text-align: center; /* Center align the discounted price */
+    }
+    th {
+        padding-left: 20px;
+        color: rgb(82, 80, 80);
+    }
+
+    .cartItem {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cartItem img {
+        width: 75px;
+        height: 75px; /* Smaller cart item images */
+    }
+    
+    .container form .row .col .inputBox img {
+        height: 22px;
+    }
+    h4{
+        margin-top: -17px;
+    }
+    .class-float h2 {
+    font-size: 15px;
+    
+
+    }
+    .class-float h3{
+        font-size: 10px;
+    }
+    .overlay{
+        display: none; /* Hide overlay initially */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 0, 0, 0.7); /* Semi-transparent background */
+    z-index: 50; 
+    
+    }
+    body{
+    width:375px;
+    }
+    .lastclass{
+       height: 100px;
+    }
+    .lastclass img{
+        height: 30px;
+        width: 30px;
+    }
+    .lastclass h3{
+      font-size: medium;
+    }
+    .lastneignbor{
+        float: right;
+        width: 100px;
+        margin-top: -100px;
+    }
+    .lastneignbor h3{
+        font-size: medium;
+    }
+    .lastneignbor p{
+        font-size: small;
+    }
+}
+}
